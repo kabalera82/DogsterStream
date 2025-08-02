@@ -51,7 +51,7 @@ public class App {
         servidor.start();
         
         // Mensaje informativo en consola indicando que el servidor está funcionando =========================================================
-        System.out.println("Servidor Dogster iniciado en http://localhost:8080/");
+        System.out.println("Servidor Dogster iniciado en http://192.168.1.135:8080/");
         System.out.println("Sirviendo archivos estáticos desde /static/");
         System.out.println("API de videos disponible en /video");
         System.out.println("Streaming de videos en /stream");

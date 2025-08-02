@@ -106,12 +106,12 @@ public class ServidorHttp {
             } catch (Exception e) {
                 throw new IOException("Error inesperado: " + e.getMessage(), e);
             }
-        }; // ✅ PUNTO Y COMA OBLIGATORIO
+        };
 
         // ========== REGISTRA EN EL SERVIDOR NATIVO ==========
         this.servidorNativo.createContext(rutaNormalizada, adaptador);
 
-        System.out.println("📍 Contexto registrado: " + rutaNormalizada
+        System.out.println("Contexto registrado: " + rutaNormalizada
                 + " -> " + controlador.getClass().getSimpleName());
     } 
 
@@ -126,7 +126,7 @@ public class ServidorHttp {
         }
 
         if (this.controladores.isEmpty()) {
-            System.out.println("⚠️  Advertencia: Servidor iniciado sin controladores");
+            System.out.println("Advertencia: Servidor iniciado sin controladores");
         }
 
         // ========== INICIO CON MÉTODOS NATIVOS ==========
@@ -134,11 +134,11 @@ public class ServidorHttp {
         this.iniciado = true;
 
         // ========== INFORMACIÓN USANDO MÉTODOS NATIVOS ==========
-        System.out.println("🚀 Servidor HTTP personalizado iniciado");
-        System.out.println("🌐 Dirección: http://" + direccion.getHostString()
+        System.out.println("Servidor HTTP personalizado iniciado");
+        System.out.println("Dirección: http://" + direccion.getHostString()
                 + ":" + direccion.getPort() + "/");
-        System.out.println("🔧 Pool de hilos: CachedThreadPool");
-        System.out.println("📋 Contextos registrados: " + this.controladores.size());
+        System.out.println("Pool de hilos: CachedThreadPool");
+        System.out.println("Contextos registrados: " + this.controladores.size());
 
         this.controladores.forEach((ruta, controlador)
                 -> System.out.println("   ├── " + ruta + " (" + controlador.getClass().getSimpleName() + ")")
