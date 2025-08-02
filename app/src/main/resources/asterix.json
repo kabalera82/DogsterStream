@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "title": "Astérix el Galo",
+    "year": 1967,
+    "duration": 68,
+    "poster": "https://dvdstorespain.es/291980/asterix-el-galo-dvd-.jpg",
+    "videoUrl": "D:\\Videos\\Asterix y Obelix\\Asterix El Galo.mp4"
+  },
+  {
+    "id": 2,
+    "title": "Astérix y Cleopatra",
+    "year": 1968,
+    "duration": 72,
+    "poster": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/1968/12/w1280/eEyWpjAeBC7xnCDx26JPHrOrPCp.jpg",
+    "videoUrl": "D:\\Videos\\Asterix y Obelix\\Asterix y Cleopatra.mp4"
+  },
+  {
+    "id": 3,
+    "title": "Astérix y las 12 pruebas",
+    "year": 1976,
+    "duration": 82,
+    "poster": "https://m.media-amazon.com/images/I/71WAZ591iHL._UF1000,1000_QL80_.jpg",
+    "videoUrl": "D:\\Videos\\Asterix y Obelix\\Asterix Y Las 12 Pruebas.mp4"
+  },
+  {
+    "id": 4,
+    "title": "Astérix y la sorpresa del César",
+    "year": 1985,
+    "duration": 79,
+    "poster": "https://m.media-amazon.com/images/I/81iBYgL9WCL.jpg",
+    "videoUrl": "D:\\Videos\\Asterix y Obelix\\Asterix Y La Sorpresa Del Cesar.mp4"
+  },
+  {
+    "id": 5,
+    "title": "Astérix en Bretaña",
+    "year": 1986,
+    "duration": 79,
+    "poster": "https://m.media-amazon.com/images/I/719CzxwdADL._UF1000,1000_QL80_.jpg",
+    "videoUrl": "D:\\Videos\\Asterix y Obelix\\Asterix En Bretaña.mp4"
+  },
+  {
+    "id": 6,
+    "title": "El golpe de menhir",
+    "year": 1989,
+    "duration": 78,
+    "poster": "https://m.media-amazon.com/images/I/51N9-neTGZL._UF1000,1000_QL80_.jpg",
+    "videoUrl": "D:\\Videos\\Asterix y Obelix\\Asterix  El Golpe Del Menhir.mp4"
+  }, 
+  {
+    "id": 7,
+    "title": "Astérix en América",
+    "year": 1994,
+    "duration": 85,
+    "poster": "https://m.media-amazon.com/images/S/pv-target-images/f1ecf288994a3c9757d51f67daac518dc6f4b0701b54f4e036d22f1449c17265.jpg",
+    "videoUrl": "D:\\Videos\\Asterix y Obelix\\Asterix En America.mp4"
+  },
+  {
+    "id": 8,
+    "title": "Astérix y los Vikingos",
+    "year": 2006,
+    "duration": 78,
+    "poster": "https://es.web.img3.acsta.net/medias/nmedia/18/89/70/64/20063022.jpg",
+    "videoUrl": "D:\\Videos\\Asterix y Obelix\\Asterix Y Los Vikingos.mp4"
+  },
+  {
+    "id": 9,
+    "title": "Ásterix: La Residencia de los Dioses",
+    "year": 2014,
+    "duration": 85,
+    "poster": "https://es.static.webuy.com/product_images/DVD/DVD%20Infantiles/8420266001160_l.jpg",
+    "videoUrl": "D:\\Videos\\Asterix y Obelix\\Asterix En Bretaña.mp4"
+  },
+  
+  {
+    "id": 10,
+    "title": "El secreto de la poción mágica",
+    "year": 2018,
+    "duration": 85,
+    "poster": "https://es.web.img3.acsta.net/pictures/18/11/19/15/28/5088214.jpg",
+    "videoUrl": "D:\\Videos\\Asterix y Obelix\\Asterix y Cleopatra.mp4"
+  },
+  {
+    "id": 11,
+    "title": "El Combate de los jefes",
+    "year": 2025,
+    "duration": 135,
+    "poster": "https://pics.filmaffinity.com/asterix_et_obelix_le_combat_des_chefs-247677432-mmed.jpg",
+    "videoUrl": "D:\\Videos\\Asterix y Obelix\\Asterix y Cleopatra.mp4"
+  },
+{
+  "id": 10,
+  "title": "The Shawshank Redemption",
+  "year": 1994,
+  "duration": 142,
+  "poster": "https://i.ebayimg.com/images/g/4goAAOSwMyBe7hnQ/s-l1200.webp",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\The Shawshank Redemption.mp4"
+},
+{
+  "id": 11,
+  "title": "The Dark Knight",
+  "year": 2008,
+  "duration": 152,
+  "poster": "https://i.ebayimg.com/images/g/yokAAOSw8w1YARbm/s-l1200.jpg",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\The Dark Knight.mp4"
+},
+{
+  "id": 12,
+  "title": "Inception",
+  "year": 2010,
+  "duration": 148,
+  "poster": "https://m.media-amazon.com/images/I/91Rc8cAmnAL._AC_UF1000,1000_QL80_.jpg",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\Inception.mp4"
+},
+{
+  "id": 13,
+  "title": "Pulp Fiction",
+  "year": 1994,
+  "duration": 154,
+  "poster": "https://www.themoviedb.org/t/p/original/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\Pulp Fiction.mp4"
+},
+{
+  "id": 14,
+  "title": "Forrest Gump",
+  "year": 1994,
+  "duration": 142,
+  "poster": "https://i.ebayimg.com/images/g/qR8AAOSwkvRZzuMD/s-l1600.jpg",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\Forrest Gump.mp4"
+},
+{
+  "id": 15,
+  "title": "Gladiator",
+  "year": 2000,
+  "duration": 155,
+  "poster": "https://img.fruugo.com/product/0/60/14417600_max.jpg",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\Gladiator.mp4"
+},
+{
+  "id": 16,
+  "title": "The Matrix",
+  "year": 1999,
+  "duration": 136,
+  "poster": "https://i.ebayimg.com/images/g/QFQAAOSwAQpfjaA6/s-l1200.jpg",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\The Matrix.mp4"
+},
+{
+  "id": 17,
+  "title": "Interstellar",
+  "year": 2014,
+  "duration": 169,
+  "poster": "https://m.media-amazon.com/images/I/91obuWzA3XL._AC_UF1000,1000_QL80_.jpg",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\Interstellar.mp4"
+},
+{
+  "id": 18,
+  "title": "The Lord of the Rings: The Return of the King",
+  "year": 2003,
+  "duration": 201,
+  "poster": "https://i.ebayimg.com/images/g/0hoAAOSwe7peaMLW/s-l1600.jpg",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\LOTR Return of the King.mp4"
+},
+{
+  "id": 19,
+  "title": "The Lion King",
+  "year": 1994,
+  "duration": 88,
+  "poster": "https://m.media-amazon.com/images/I/81BMmrwSFOL._AC_UF1000,1000_QL80_.jpg",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\The Lion King.mp4"
+},
+{
+  "id": 20,
+  "title": "The Avengers",
+  "year": 2012,
+  "duration": 143,
+  "poster": "https://img.fruugo.com/product/7/41/14532417_max.jpg",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\The Avengers.mp4"
+},
+{
+  "id": 21,
+  "title": "Jurassic Park",
+  "year": 1993,
+  "duration": 127,
+  "poster": "https://vice-press.com/cdn/shop/products/Jurassic-Park-Editions-poster-florey.jpg?v=1654518755&width=1024",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\Jurassic Park.mp4"
+},
+{
+  "id": 22,
+  "title": "Titanic",
+  "year": 1997,
+  "duration": 195,
+  "poster": "https://i.pinimg.com/originals/42/42/65/4242658e6f1b0d6322a4a93e0383108b.png",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\Titanic.mp4"
+},
+{
+  "id": 23,
+  "title": "The Social Network",
+  "year": 2010,
+  "duration": 120,
+  "poster": "https://i.pinimg.com/originals/7e/37/b9/7e37b994b613e94cba64f307b1983e39.jpg",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\The Social Network.mp4"
+},
+{
+  "id": 24,
+  "title": "Avatar",
+  "year": 2009,
+  "duration": 162,
+  "poster": "https://i.etsystatic.com/35681979/r/il/dfe3ba/3957859451/il_fullxfull.3957859451_h27r.jpg",
+  "videoUrl": "D:\\Videos\\Asterix y Obelix\\Avatar.mp4"
+}
+]

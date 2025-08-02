@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none; /* barra Scroll*/
+    -ms-overflow-style: none;  /* barra Scroll */
+}
+
+/*------- SPLASH -------------------------------------------------------------------------------------------------*/
+
+#splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#videoSplash {
+    width: 95vw;
+    height: 95vh;
+    object-fit: cover;
+}
+
+/*------- Pagina -------------------------------------------------------------------------------------------------*/
+
+body {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+    font-size: medium;
+    font-family: Consolas;
+    background-color: black;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
+     overflow: auto; /* Permite el scroll */
+     font-family: 'Times New Roman', Times, serif;
+}
+
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(78, 14, 180, 0.219);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px); 
+    z-index: 1000;
+}
+h1 {
+    color: beige;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#videoclub {
+    width: 94%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    gap: 20px;
+}
+
+#movies {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 500px;
+    border: 2px solid beige;
+    align-items: center;
+}
+div > img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
+    word-break: break-word;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(78, 14, 180, 0.219);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px); 
+    z-index: 1000;
+}
+
+/*------- STARS -------------------------------------------------------------------------------------------------*/
+/* Aplica estilos a html, body y #root para ocupar todo el alto y quitar márgenes y rellenos */
+
+
+/* El contenedor principal tiene posición relativa y ocupa todo el alto */
+
+
+/* Las capas de estrellas ocupan toda la pantalla y están posicionadas encima del fondo */
+#stars,
+#starsB,
+#stars2,
+#stars3 {
+  position: absolute;
+  /* Posiciona absolutamente respecto a #root */
+  top: 0;
+  /* Desde arriba */
+  left: 0;
+  /* Desde la izquierda */
+
+  /* Ancho igual al viewport */
+
+  /* Alto igual al viewport */
+  background: transparent;
+  /* Fondo transparente */
+  pointer-events: none;
+  /* No bloquea eventos del mouse */
+  z-index: -1;
+  /* Detrás de otros elementos */
+  position: fixed;
+}
+
+/* Estilo para la primera capa de estrellas */
+#stars {
+  width: 0.1px;
+  /* Tamaño de cada estrella */
+  height: 0.1px;
+  animation: animStar 1000s linear infinite, twinkle 10s ease-in-out infinite;
+  /* Movimiento y titileo */
+  border-radius: 100%;
+  /* Forma circular */
+  transition: opacity 0.3s;
+  /* Transición suave de opacidad */
+  position: absolute;
+  /* Posiciona absolutamente respecto a #root */
+  z-index: -1;
+  /* Asegura que esté detrás de otros elementos */
+  position: fixed;
+}
+
+/* Estilo para una segunda capa de estrellas (probablemente más pequeñas o diferentes) */
+#starsB {
+  width: 0.1px;
+  /* Tamaño de cada estrella */
+  height: 0.1px;
+  animation: twinkle 2s ease-in-out infinite;
+  /* Movimiento y titileo más rápido */
+  border-radius: 100%;
+  /* Forma circular */
+  transition: opacity 0.3s;
+  /* Transición suave de opacidad */
+  position: absolute;
+  /* Posiciona absolutamente respecto a #root */
+  z-index: -1;
+  /* Asegura que esté detrás de otros elementos */
+  position: fixed;
+}
+
+/* Segunda capa de estrellas, más grandes y con rotación */
+#stars2 {
+  width: 0.1px;
+  /* Tamaño de cada estrella */
+  height: 1px;
+  animation: animStar 300s linear infinite, rotateStars 60s linear infinite;
+  /* Movimiento vertical y rotación */
+  border-radius: 100%;
+  /* Forma circular */
+  transform-origin: 50vw 50vh;
+  /* Rota respecto al centro del viewport */
+  position: absolute;
+  /* Posiciona absolutamente respecto a #root */
+  z-index: -1;
+  /* Asegura que esté detrás de otros elementos */
+  position: fixed;
+}
+
+/* Tercera capa de estrellas, aún más grandes */
+#stars3 {
+  width: 0.1px;
+  /* Tamaño de cada estrella */
+  height: 0.1px;
+  animation: animStar 500s linear infinite, twinkle 10s ease-in-out infinite;
+  /* Movimiento y titileo */
+  border-radius: 100%;
+  /* Forma circular */
+  position: absolute;
+  /* Posiciona absolutamente respecto a #root */
+  z-index: -1;
+  /* Asegura que esté detrás de otros elementos */
+  position: fixed;
+}
+
+
+/* Animación para mover las estrellas hacia arriba lentamente */
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+    /* Comienza en la posición original */
+  }
+
+  to {
+    transform: translateY(-2000px);
+    /* Termina 2000px arriba */
+  }
+}
+
+/* Animación para el titileo de las estrellas (cambia la opacidad) */
+@keyframes twinkle {
+
+  0%,
+  100% {
+    opacity: 0.1;
+    /* Opacidad baja al inicio y final */
+  }
+
+  50% {
+    opacity: 1;
+    /* Opacidad máxima a la mitad */
+  }
+}
+
+/* Animación para rotar las estrellas alrededor del centro del visor */
+@keyframes rotateStars {
+  from {
+    transform: rotate(0deg);
+    /* Sin rotación al inicio */
+  }
+
+  to {
+    transform: rotate(360deg);
+    /* Rotación completa al final */
+  }
+}
+
+#splashTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    color: rgb(79, 16, 121);
+    font-size: 5rem;
+    text-align: center;
+    z-index: 2001;
+    animation: growTitle 5s ease-in-out forwards;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+@keyframes growTitle {
+    0% {
+        transform: translate(-50%, -50%) scale(0.1);
+        opacity: 0.3;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
